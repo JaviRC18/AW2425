@@ -1,0 +1,13 @@
+@import url(
+    "https://fonts.googleapis.com/css?family=Roboto&effect=neon|outline|emboss|shadow-multiple|fire-animation"
+);
+
+body{
+    text-align: center;
+    font-family: roboto;
+}
+
+footer{
+    background-color: grey;
+    padding: 10px;
+}
