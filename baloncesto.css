@@ -1,13 +1,46 @@
+@import url(
+    "https://fonts.googleapis.com/css?family=Roboto&effect=neon|outline|emboss|shadow-multiple|fire-animation"
+);
+
 body{
     text-align: center;
+    font-family: roboto;
 }
 
 footer{
     background-color: grey;
+    
     padding: 10px;
 }
 
-header{
+#header{
     padding: 10px;
-    
+    background-color: grey;
+}
+
+table{
+    padding: 5px;
+}
+
+th{
+    padding: 10px;
+}
+
+
+
+nav{
+    background-color: orange;
+    line-height: 45px;
+    display: block;
+}
+
+nav a:hover{
+    background-color: lightblue;
+    transition: s;
+    transform: rotate(360);
+}
+
+nav a:link{
+    color: black;
+    text-decoration: solid;   
 }
